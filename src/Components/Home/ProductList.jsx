@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ProductComponent } from '../ProductComponent';
-import { initialData } from '../../utils/data';
+import { initialData } from '../../Utils/data';
 
 export const ProductList = () => {
 	const luxuryCars = initialData.filter((item) => item.category === 'Luxury');
